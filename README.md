@@ -46,7 +46,6 @@ is my method to sort the array of strings based on the number of the file. If yo
 
 If not, you're outta luck, kid. Comment out the whole class NumericStringComparator and the line Arrays.sort(files, Comparator.comparing(File::getName, new NumericStringComparator())). Also the code underneath if(files!=null). You'll have to manually write a text file with the format: 
 
-# this is a comment
 file '/path/to/file1.wav'
 file '/path/to/file2.wav'
 file '/path/to/file3.wav'
