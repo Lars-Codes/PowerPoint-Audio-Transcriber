@@ -12,6 +12,11 @@ You'll need to run:
 >> brew install unzip 
 >> brew install libmagic 
 
+You'll also need: 
+!pip install -U openai-whisper
+pip install git+https://github.com/openai/whisper.git -q
+pip install fpdf 
+
 I started by creating prompts to ask the user the name of the file they'd like to use, the type, path, etc. I found this extremely time-consuming. You can uncomment the beginning portions if you'd like to get prompted and comment out my unique code, but otherwise just follow this ReadMe and I'll show you where to input your own information. 
 
 # Halt, sire! Code needs changing!
