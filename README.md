@@ -6,6 +6,9 @@ My code will extract all audio files from a .pptx file (you can alter the code t
 
 I will flag every section that requires your intervention with a "STOP HERE! NEED TO CHANGE CODE!" Otherwise, I'll just be writing explanations. 
 
+We will be using the tiny.en model for our audio transcription. You can download it here: https://github.com/openai/whisper/discussions/63
+Make sure to put the model in your project directory. 
+
 # It all begins with a bash script... 
 You will need to install Homebrew (https://brew.sh/) and Ffmpeg (https://ffmpeg.org/download.html) to run this project. 
 You'll need to run: 
